@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
+<div class="bg-glow-container">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+</div>
     <!-- NAVBAR -->
 <nav class="navbar" id="navbar">
     <div class="nav-container">
@@ -66,21 +70,23 @@
         </div>
 
         <div class="hero-visual">
-            <div class="profile-frame">
-                <!-- Place your image inside an 'images' folder named 'profile.jpg' -->
-                <img src="images/profile.jpg" alt="Ei Thinzar Naing Profile Photo" class="profile-img" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Photo'">
-            </div>
-            <!-- Purely Decorative Animated Graph Card -->
-            <div class="chart-card">
-                <div class="chart-header">
-                    <span>Performance Trend</span>
-                    <span class="accent-text">+3.96 GPA</span>
-                </div>
-                <svg class="mini-chart" viewBox="0 0 100 40">
-                    <path d="M0,35 Q20,15 40,25 T80,10 T100,5" fill="none" stroke="#6366F1" stroke-width="3" />
-                </svg>
-            </div>
-        </div>
+    <!-- Floating Role Pill (Top-Left) -->
+    <div class="role-badge badge-top">
+        <i class="fa-solid fa-chart-pie"></i>
+        <span>Data & Analytics</span>
+    </div>
+
+    <!-- Profile Photo Container -->
+    <div class="profile-frame">
+        <img src="images/profile.jpg" alt="Ei Thinzar Naing Profile Photo" class="profile-img" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Photo'">
+    </div>
+
+    <!-- Floating Leadership Pill (Bottom-Right) -->
+    <div class="role-badge badge-bottom">
+        <i class="fa-solid fa-crown"></i>
+        <span>Vice President @ TechBridge</span>
+    </div>
+</div> 
     </div>
 </section>
 
@@ -189,7 +195,9 @@
         </div>
     </section>
 
-    <!-- PROJECTS SECTION -->
+ 
+
+                <!-- PROJECTS SECTION -->
     <section id="projects" class="projects section-padding">
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
@@ -201,7 +209,7 @@
                         <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop" alt="Habit Tracker Website" loading="lazy">
                     </div>
                     <div class="project-content">
-                        <h3>Nexora Habit Tracker</h3>
+                        <h3>Better HB Habit Tracker</h3>
                         <p class="problem"><strong>Goal:</strong> Build an interactive web platform to enable daily goal tracking and user habit visualization.</p>
                         <p class="details">Collaborated in a hackathon-style setting on UX/UI, frontend, and backend implementation as a developer.</p>
                         <div class="tags">
@@ -215,22 +223,23 @@
                     </div>
                 </div>
 
-                <!-- Project 2 -->
+                <!-- Project 2 (Updated: CineGrid Movie Website) -->
                 <div class="project-card">
                     <div class="project-img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop" alt="Power BI Analytics" loading="lazy">
+                        <img src="images/cinegrid.jpg" alt="CineGrid Movie Website" loading="lazy">
                     </div>
                     <div class="project-content">
-                        <h3>Power BI & Excel Analytics</h3>
-                        <p class="problem"><strong>Goal:</strong> Transform complex raw datasets into interactive, business-ready decision dashboards.</p>
-                        <p class="details">Applied data cleaning, data modeling, and visualization techniques using Excel and Power BI.</p>
+                        <h3>CineGrid Movie Website</h3>
+                        <p class="problem"><strong>Goal:</strong> Design and deploy a modern, responsive web application focused on seamless user experience.</p>
+                        <p class="details">Implemented clean UI components, modular frontend structure, and responsive layout styling.</p>
                         <div class="tags">
-                            <span class="tag">Power BI</span>
-                            <span class="tag">Excel</span>
-                            <span class="tag">Data Analytics</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Dev</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Details</a>
+                            <a href="https://github.com/eithinzarnaing3105-glitch/web-development-project" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
                         </div>
                     </div>
                 </div>
@@ -238,26 +247,47 @@
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop" alt="Vue Laravel Full Stack App" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?w=600&auto=format&fit=crop" alt="Taskieee Project" loading="lazy">
                     </div>
                     <div class="project-content">
-                        <h3>Vue Laravel Web App</h3>
-                        <p class="problem"><strong>Goal:</strong> Deploy a full-stack, scalable application with modern client-server architecture.</p>
-                        <p class="details">Implemented API integration, database management with MySQL, and responsive frontend UI styling.</p>
+                        <h3>Taskieee Task Manager</h3>
+                        <p class="problem"><strong>Goal:</strong> Develop an intuitive task management system to help users organize, prioritize, and track everyday productivity.</p>
+                        <p class="details">Built dynamic task workflows, status filtering, and a clean user interface for effective task handling.</p>
                         <div class="tags">
-                            <span class="tag">Laravel</span>
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web App</span>
+                            <span class="tag">Productivity</span>
+                            <span class="tag">UI/UX</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> Code/Repo</a>
+                            <a href="https://github.com/eithinzarnaing3105-glitch/taskieee_project" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
                         </div>
                     </div>
                 </div>
 
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop" alt="Java Project" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Java Application Project</h3>
+                        <p class="problem"><strong>Goal:</strong> Implement core Object-Oriented Programming (OOP) concepts to build a structured, efficient application.</p>
+                        <p class="details">Focused on backend logic design, data handling, and clean code principles using core Java execution frameworks.</p>
+                        <div class="tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Software Dev</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/eithinzarnaing3105-glitch/java-project" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
 
     <!-- EXPERIENCE & EDUCATION SECTION -->
     <section id="experience" class="experience section-padding">
@@ -305,7 +335,7 @@
                     <div class="timeline-content">
                         <h3>B.S. in Information Technology</h3>
                         <span class="company">Stamford International University</span>
-                        <p>Academic Distinction: <strong>GPA 3.96</strong> | Full Scholarship Recipient</p>
+                        <p>Academic Distinction: <strong>GPA 3.96</strong> | Scholarship Recipient</p>
                     </div>
                 </div>
 
@@ -316,7 +346,9 @@
                 <h3>Certifications</h3>
                 <ul class="cert-list">
                     <li><i class="fa-solid fa-certificate"></i> Oracle Java Foundations</li>
+                    <li><i class="fa-solid fa-certificate"></i> AWS - Cloud Foundations</li>
                     <li><i class="fa-solid fa-certificate"></i> Python Programming Fundamentals (Coursera)</li>
+                    <li><i class="fa-solid fa-certificate"></i> Data Analytics Essentials (Cisco Academy)</li>
                     <li><i class="fa-solid fa-certificate"></i> Data with Power BI & Excel (Coursera)</li>
                     <li><i class="fa-solid fa-certificate"></i> Git & GitHub (Creative Coder)</li>
                     <li><i class="fa-solid fa-certificate"></i> Vue Laravel Full Stack Deployment (Creative Coder)</li>
