@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ei Thinzar Naing (Aeri) - IT Student, Data Analytics & Full-Stack Developer Portfolio">
+    <title>Ei Thinzar Naing — Portfolio</title>
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo">Aeri<span>.</span></a>
+        
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- Place your CV in the main folder as 'resume.pdf' -->
+            <li class="mobile-only"><a href="CV.pdf" class="btn btn-nav" target="_blank" download>Download CV</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <a href="CV.pdf" class="btn btn-nav desktop-only" target="_blank" download>Download CV</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-content">
+            <span class="badge">IT Student || Data & Database Specialist</span>
+            <h1>Hi, I'm <span class="highlight">Ei Thinzar Naing</span></h1>
+            <p class="tagline">Transforming complex data into actionable and meaningfulinsights.</p>
+            <p class="intro">
+                An Information Technology student specializing in Data Analytics, Database Management, Web Development, and Leadership. Driven by curiosity and a high-GPA academic record.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="CV.pdf" class="btn btn-outline" target="_blank" download>Download CV</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ei-thinzar-naing" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:eithinzarnaing3105@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="profile-frame">
+                <!-- Place your image inside an 'images' folder named 'profile.jpg' -->
+                <img src="images/profile.jpg" alt="Ei Thinzar Naing Profile Photo" class="profile-img" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Photo'">
+            </div>
+            <!-- Purely Decorative Animated Graph Card -->
+            <div class="chart-card">
+                <div class="chart-header">
+                    <span>Performance Trend</span>
+                    <span class="accent-text">+3.96 GPA</span>
+                </div>
+                <svg class="mini-chart" viewBox="0 0 100 40">
+                    <path d="M0,35 Q20,15 40,25 T80,10 T100,5" fill="none" stroke="#6366F1" stroke-width="3" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                       I am a final-year Information Technology student at Stamford International University (3.96 GPA, Full Scholarship Recipient) specializing in Data Analytics and Database Management. My core focus is bridging the gap between raw datasets and strategic decision-making—whether that involves designing clean database structures, analyzing data trends, or building business-ready Power BI dashboards.
+                    </p>
+                    <p>
+                        While data is my primary domain, my background spans full-stack web development (Laravel, MySQL, Vue.js, Python) and project leadership. Serving as Vice President of the TechBridge IT Club, I lead cross-functional student teams, coordinate tech workshops, and oversee digital media assets. This blend of technical capability, backend understanding, and project management enables me to communicate complex technical concepts effectively and deliver structured, high-impact solutions.
+                    </p>
+                </div>
+
+                <div class="quick-facts">
+                    <div class="fact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bangkok, Thailand</p>
+                        </div>
+                    </div>
+                    <div class="fact-card">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>
+                            <h4>Status</h4>
+                            <p>Open for Roles & Internships</p>
+                        </div>
+                    </div>
+                    <div class="fact-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <h4>GPA</h4>
+                            <p>3.96 (Scholarship Recipient)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-code"></i> Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Laravel</span>
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+    
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-chart-line"></i> Data & Databases</h3>
+                    <div class="tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Oracle APEX</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">Data Analytics</span>
+                        <span class="tag">Data Mining</span>
+                        <span class="tag">Database Management</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-wrench"></i> Tools & Tech</h3>
+                    <div class="tags">
+                          <span class="tag">AWS Cloud</span>
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Eclipse</span>
+                        <span class="tag">Windows / Linux</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Canva</span>
+                        <span class="tag">CapCut</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Team Leadership</span>
+                        <span class="tag">Time Management</span>
+                        <span class="tag">Critical Thinking</span>
+                        <span class="tag">English (Upper Intermediate)</span>
+                        <span class="tag">Thai (Basic)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop" alt="Habit Tracker Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Nexora Habit Tracker</h3>
+                        <p class="problem"><strong>Goal:</strong> Build an interactive web platform to enable daily goal tracking and user habit visualization.</p>
+                        <p class="details">Collaborated in a hackathon-style setting on UX/UI, frontend, and backend implementation as a developer.</p>
+                        <div class="tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UX/UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> Code/Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop" alt="Power BI Analytics" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Power BI & Excel Analytics</h3>
+                        <p class="problem"><strong>Goal:</strong> Transform complex raw datasets into interactive, business-ready decision dashboards.</p>
+                        <p class="details">Applied data cleaning, data modeling, and visualization techniques using Excel and Power BI.</p>
+                        <div class="tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">Data Analytics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop" alt="Vue Laravel Full Stack App" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Vue Laravel Web App</h3>
+                        <p class="problem"><strong>Goal:</strong> Deploy a full-stack, scalable application with modern client-server architecture.</p>
+                        <p class="details">Implemented API integration, database management with MySQL, and responsive frontend UI styling.</p>
+                        <div class="tags">
+                            <span class="tag">Laravel</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> Code/Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section id="experience" class="experience section-padding">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+
+                <!-- Role 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2026 – Present</div>
+                    <div class="timeline-content">
+                        <h3>Vice President</h3>
+                        <span class="company">TechBridge IT Club — Stamford International University</span>
+                        <p>Lead and manage club teams, coordinate discussions, organize career-focused workshops, and oversee content creation & media collateral.</p>
+                    </div>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2024 – Mar 2025</div>
+                    <div class="timeline-content">
+                        <h3>Developer (Volunteer)</h3>
+                        <span class="company">Nexora Tech Agency</span>
+                        <p>Participated in a hackathon-style project to build a habit tracker web application. Received a Recommendation Letter for contributions in UX/UI, frontend, and backend tasks.</p>
+                    </div>
+                </div>
+
+                <!-- Role 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2025 – Aug 2025</div>
+                    <div class="timeline-content">
+                        <h3>Project Coordinator (Volunteer)</h3>
+                        <span class="company">Meridian Education Institute</span>
+                        <p>Coordinated educational projects and webinars focused on student impact, managing communication between team members and partner organizations.</p>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 – 2028</div>
+                    <div class="timeline-content">
+                        <h3>B.S. in Information Technology</h3>
+                        <span class="company">Stamford International University</span>
+                        <p>Academic Distinction: <strong>GPA 3.96</strong> | Full Scholarship Recipient</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Certifications subsection -->
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <ul class="cert-list">
+                    <li><i class="fa-solid fa-certificate"></i> Oracle Java Foundations</li>
+                    <li><i class="fa-solid fa-certificate"></i> Python Programming Fundamentals (Coursera)</li>
+                    <li><i class="fa-solid fa-certificate"></i> Data with Power BI & Excel (Coursera)</li>
+                    <li><i class="fa-solid fa-certificate"></i> Git & GitHub (Creative Coder)</li>
+                    <li><i class="fa-solid fa-certificate"></i> Vue Laravel Full Stack Deployment (Creative Coder)</li>
+                    <li><i class="fa-solid fa-certificate"></i> Graphic Design and Canva Essentials</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Feel free to reach out for opportunities, collaborations, or just a chat about tech and data!</p>
+                    <a href="mailto:eithinzarnaing3105@gmail.com" class="contact-detail">
+                        <i class="fa-solid fa-envelope"></i> eithinzarnaing3105@gmail.com
+                    </a>
+                    <a href="tel:+66855248197" class="contact-detail">
+                        <i class="fa-solid fa-phone"></i> +66 85 524 8197
+                    </a>
+                </div>
+
+                <form class="contact-form" action="https://formspree.io/f/eithinzarnaing3105@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>© 2026 Ei Thinzar Naing. All rights reserved.</p>
+            <a href="#home" class="back-to-top"><i class="fa-solid fa-arrow-up"></i> Top</a>
+        </div>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+</body>
+</html>
