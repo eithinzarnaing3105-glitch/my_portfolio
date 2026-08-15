@@ -668,7 +668,75 @@ body {
     margin-bottom: 35px;
     transition: var(--transition);
 }
+/* --- TIMELINE COMPACT MEDIA & BUTTON SPACING --- */
+.timeline-content p {
+    margin-bottom: 16px; /* Creates natural space between text and buttons/images */
+}
 
+/* Reduced Image Grid Thumbnail Sizes */
+.timeline-media-grid {
+    display: flex;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.media-thumb {
+    position: relative;
+    width: 75px;  /* Compact width */
+    height: 55px; /* Compact height */
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    display: block;
+}
+
+.media-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.thumb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 20, 28, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    color: var(--accent-color);
+    font-size: 0.8rem;
+    transition: opacity 0.3s ease;
+}
+
+.media-thumb:hover img {
+    transform: scale(1.1);
+}
+
+.media-thumb:hover .thumb-overlay {
+    opacity: 1;
+}
+
+/* Button Container Spacing */
+.timeline-actions {
+    margin-top: 18px; /* Adds clear separation above the button */
+}
+
+.btn-sm {
+    padding: 7px 14px;
+    font-size: 0.82rem;
+    border-radius: 8px;
+    gap: 8px;
+}
+
+.btn-sm i {
+    font-size: 0.9rem;
+    color: var(--accent-color);
+}
 .timeline-dot {
     position: absolute;
     left: -30px;
