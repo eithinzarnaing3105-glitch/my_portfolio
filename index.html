@@ -65,7 +65,12 @@
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/ei-thinzar-naing" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://github.com/eithinzarnaing3105-glitch" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="mailto:2310060002@students.stamford.edu" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://outlook.office.com/mail/deeplink/compose?to=2310060002%40students.stamford.edu"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Email me through Outlook">
+    <i class="fa-solid fa-envelope"></i>
+</a>
             </div>
         </div>
 
@@ -207,102 +212,291 @@
 
                 <!-- PROJECTS SECTION -->
     <section id="projects" class="projects section-padding">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
- 
-                <!-- Project 1 -->
-                <div class="project-card extra-project">
-                    <div class="project-img-wrapper">
-                        <img src="images/cinegrid.jpg" alt="CineGrid Movie Website" loading="lazy">
-                    </div>
-                    <div class="project-content">
-                        <h3>CineGrid Movie Website</h3>
-                        <p class="problem"><strong>Goal:</strong>Design and build a front-end prototype of a cinema website as a final project for ITE 120, focused entirely on UI/UX and how a streaming platform should look and feel, without a backend. </p>
-                        <div class="tags">
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS3</span>
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">UI/UX</span>
-                            <span class="tag">Responsive Design</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch/web-development-project" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
-                            <a href="javascript:void(0);" class="btn-link btn-details" data-project="cinegrid"><i class="fa-solid fa-images"></i> More Details</a>
-                        </div>
-                    </div>
+    <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <div class="projects-grid" id="projects-grid">
+
+            <!-- Project 1: Always visible -->
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="images/cinegrid.jpg"
+                         alt="CineGrid Movie Website" loading="lazy">
                 </div>
 
-                 <!-- Project 2 -->
-                <div class="project-card extra-project">
-                    <div class="project-img-wrapper">
-                        <img src="images/t1.jpg" alt="Taskieee Project" loading="lazy">
-                    </div>
-                    <div class="project-content">
-                        <h3>Taskieee Task Manager</h3>
-                        <p class="problem"><strong>Goal:</strong> Design and build a full-stack task management web app as a capstone project for a Vue.js full-stack development course. This web page is developed to help users organize, prioritize, and track everyday productivity.</p>
-                        <div class="tags">
-                            <span class="tag">Laravel</span>
-                            <span class="tag">Vue.js</span>
-                            <span class="tag">Full Stack</span>
-                            <span class="tag">REST API</span>
-                            <span class="tag">UI/UX</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch/taskieee_project" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
-                            <a href="javascript:void(0);" class="btn-link btn-details" data-project="taskieee"><i class="fa-solid fa-images"></i> More Details</a>
-                        </div>
-                    </div>
-                </div>
- 
- 
+                <div class="project-content">
+                    <h3>CineGrid Movie Website</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Design and build a front-end
+                        prototype of a cinema website as a final project for
+                        ITE 120, focused on UI/UX and how a streaming platform
+                        should look and feel, without a backend.
+                    </p>
 
-                 <!-- Project 3 -->
-                <div class="project-card extra-project">
-                    <div class="project-img-wrapper">
-                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&auto=format&fit=crop" alt="Java Project" loading="lazy">
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Responsive Design</span>
                     </div>
-                    <div class="project-content">
-                        <h3>Course Management System</h3>
-                        <p class="problem"><strong>Goal:</strong> Build a Java console application for BSc IT students and instructors to manage and access course schedules, replacing scattered timetable info with one structured, role-based system.</p>
-                    
-                        <div class="tags">
-                            <span class="tag">Java</span>
-                            <span class="tag">OOP</span>
-                            <span class="tag">Encapsulation</span>
-                            <span class="tag">Console App</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch/course-management-system" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
-                            <a href="javascript:void(0);" class="btn-link btn-details" data-project="course"><i class="fa-solid fa-images"></i> More Details</a>
-                        </div>
-                    </div>
-                </div>
 
-                 <!-- Project 4 -->
-                <div class="project-card extra-project">
-                    <div class="project-img-wrapper">
-                        <img src="images/i3.jpg" alt="Boom Gate & Street Lamp IoT" loading="lazy">
-                    </div>
-                    <div class="project-content">
-                        <h3>Boom Gate & Street Lamp IoT</h3>
-                        <p class="problem"><strong>Goal:</strong> Design and build an ESP32-based IoT system to automate toll gate control, vehicle detection, and street lighting for small-scale enterprises, monitored and controlled remotely through the Blynk app.</p>
-            
-                        <div class="tags">
-                            <span class="tag">ESP32</span>
-                            <span class="tag">IoT</span>
-                            <span class="tag">Arduino</span>
-                            <span class="tag">Blynk</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/eithinzarnaing3105-glitch/boom-gate-and-street-lamp-IoT" target="_blank" class="btn-link"><i class="fa-brands fa-github"></i> View Repo</a>
-                            <a href="javascript:void(0);" class="btn-link btn-details" data-project="IoT"><i class="fa-solid fa-images"></i> More Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/web-development-project"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="cinegrid">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Project 2: Always visible -->
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="images/t1.jpg"
+                         alt="Taskieee Task Manager" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Taskieee Task Manager</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Design and build a full-stack
+                        task management web app as a capstone project for a
+                        Vue.js full-stack development course, helping users
+                        organize, prioritize, and track everyday tasks.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Laravel</span>
+                        <span class="tag">Vue.js</span>
+                        <span class="tag">Full Stack</span>
+                        <span class="tag">REST API</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/taskieee_project"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="taskieee">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3: Always visible -->
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="images/s1.png"
+                         alt="Skill-Gap Recommender" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Skill-Gap Recommender</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Help IT students and fresh
+                        graduates choose what to learn next by combining
+                        skill patterns from real job posts with AI-generated
+                        explanations.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">pandas</span>
+                        <span class="tag">RapidMiner</span>
+                        <span class="tag">FP-Growth</span>
+                        <span class="tag">Gemini API</span>
+                        <span class="tag">Streamlit</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/skill-gap-recommender"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="skillgap">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                        <a href="https://skill-gap-recommender.streamlit.app/"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-solid fa-globe"></i> Website
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4: Always visible -->
+            <div class="project-card">
+                <div class="project-img-wrapper">
+                    <img src="images/g1.png"
+                         alt="Glamoré Cosmetics Retail System" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Glamoré Cosmetics Retail System</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Design and build a cosmetics
+                        retail database application to organize products,
+                        customers, orders, payments, and stock records through
+                        Oracle APEX forms, reports, and dashboards.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Oracle APEX</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Database Design</span>
+                        <span class="tag">ER Diagram</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/glamore-cosmetics-retail-application"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="glamore">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5: Always visible -->
+            <div class="project-card">
+                <div class="project-img-wrapper linguage-cover">
+                    <img src="images/l1.png"
+                         alt="Linguage Online Language Learning System"
+                         loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Linguage Online Language Learning System</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Design an online language
+                        learning system that brings courses, lessons, practice,
+                        progress tracking, and subscriptions together, with
+                        separate interfaces for learners and administrators.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI/UX Design</span>
+                        <span class="tag">System Analysis</span>
+                        <span class="tag">ER & Use Case</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/linguage-learning-system-design"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="linguage">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                        <a href="https://www.figma.com/design/dRLC0BOCLYjy1IvLS35wuo/Linguage?t=Xg8b6ZlLAZkYhSf4-1"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-figma"></i> View Figma
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6: Hidden until expanded -->
+            <div class="project-card extra-project" hidden>
+                <div class="project-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&amp;auto=format&amp;fit=crop"
+                         alt="Java Course Management System" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Course Management System</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Build a Java console application
+                        for BSc IT students and instructors to manage and access
+                        course schedules, replacing scattered timetable
+                        information with one structured, role-based system.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">OOP</span>
+                        <span class="tag">Encapsulation</span>
+                        <span class="tag">Console App</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/course-management-system"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="course">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7: Hidden until expanded -->
+            <div class="project-card extra-project" hidden>
+                <div class="project-img-wrapper">
+                    <img src="images/i3.jpg"
+                         alt="Boom Gate and Street Lamp IoT" loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Boom Gate & Street Lamp IoT</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Design and build an ESP32-based
+                        IoT system to automate toll gate control, vehicle
+                        detection, and street lighting for small-scale
+                        enterprises, monitored and controlled remotely
+                        through the Blynk app.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">ESP32</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Blynk</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/boom-gate-and-street-lamp-IoT"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="IoT">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </section>
+
+        <!-- Show / hide additional projects -->
+        <div class="more-projects-wrapper">
+            <button type="button"
+                    id="toggle-projects"
+                    class="btn btn-primary"
+                    aria-expanded="false"
+                    aria-controls="projects-grid">
+                View More Projects
+            </button>
+        </div>
+    </div>
+</section>
 
    <!-- Project Details Modal -->
  <!-- Project Details Modal -->
@@ -441,19 +635,64 @@
 
             <!-- Certifications subsection -->
             <div class="certifications">
-                <h3>Certifications</h3>
-                <ul class="cert-list">
-                    <li><i class="fa-solid fa-certificate"></i> Java Foundations (Oracle Academy)</li>
-                    <li><i class="fa-solid fa-certificate"></i> AWS - Cloud Foundations</li>
-                    <li><i class="fa-solid fa-certificate"></i> Python Programming Fundamentals (Coursera)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Data Analytics Essentials (Cisco Academy)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Data with Power BI & Excel (Coursera)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Git & GitHub (Creative Coder)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Database Management (Oracle Academy)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Vue Laravel Full Stack Deployment (Creative Coder)</li>
-                    <li><i class="fa-solid fa-certificate"></i> Graphic Design and Canva Essentials (Canva Academy)</li>
-                </ul>
-            </div>
+    <h3>Certifications</h3>
+    <ul class="cert-list">
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/java.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Java Foundations (Oracle Academy) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/aws.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                AWS - Cloud Foundations ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/python.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Python Programming Fundamentals (Coursera) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/data.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Data Analytics Essentials (Cisco Academy) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/BI.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Data with Power BI & Excel (Coursera) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/git.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Git & GitHub (Creative Coder) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/database.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Database Management (Oracle Academy) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/vue.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Vue Laravel Full Stack Deployment (Creative Coder) ↗
+            </a>
+        </li>
+        <li>
+            <i class="fa-solid fa-certificate"></i>
+            <a href="certificates/canva.pdf" target="_blank" rel="noopener noreferrer" class="certificate-title-link">
+                Graphic Design and Canva Essentials (Canva Academy) ↗
+            </a>
+        </li>
+    </ul>
+</div>
         </div>
     </section>
 
@@ -473,7 +712,7 @@
                     </a>
                 </div>
 
-                <form class="contact-form" action="https://formspree.io/f/2310060002@students.stamford.edu" method="POST">
+                <form class="contact-form" action="https://formspree.io/f/xpppzakq" method="POST">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -534,6 +773,66 @@
                     { src: "images/c5.png", label: "Details", desc: "Full information on a selected title, including poster, trailer background, overview, cast, and audience reviews." }
                 ]
             },
+            skillgap: {
+                title: "Skill Gap Recommender",
+                description: "An AI capstone project that helps IT students and fresh graduates identify skills to learn next. The system analyzes skill patterns from LinkedIn job posts and uses Gemini API to explain recommendations based on the user's current skills and target job.",
+                progress: [
+                    "Cleaned and prepared 22,673 IT job posts across 19 job categories using Python and pandas",
+                    "Compared demand for AI-related skills across different IT roles",
+                    "Used FP-Growth and association rule mining in RapidMiner to discover 2,005 frequent item sets and 5,278 association rules",
+                    "Selected relevant rules based on the user's skills and ranked them by confidence and lift",
+                    "Connected the Gemini API to generate simple learning suggestions using the selected patterns",
+                    "Built a Streamlit interface with recommendations and an expandable section showing supporting rules",
+                    "Manually reviewed recommendations across example students with different skills and target jobs"
+                ],
+
+                images: [
+                    { src: "images/s4.png", label: "Data Mining Workflow", desc: "RapidMiner workflow using FP-Growth and Create Association Rules to identify skills that appear together in job posts." },
+                    { src: "images/s1.png", label: "Recommendation Interface", desc: "Streamlit interface where users enter their current skills and target IT job." },
+                    { src: "images/s2.png", label: "Skill Recommendations Result", desc: "Suggested skills with short explanations based on the user's input and selected job-post patterns." },
+                    { src: "images/s3.png", label: "Supporting Evidence", desc: "Association rules with confidence and lift values that support the recommendations." },
+                ]
+            },
+            glamore: {
+                title: "Glamoré Cosmetics Retail System",
+                description: "A cosmetics retail database application developed as a final project using Oracle APEX and Oracle SQL. The system connects ten related tables to manage retail operations.",
+                progress: [
+                   "Designed an ER diagram connecting customers, orders, products, payments, delivery services, and stock records",
+        "Built Oracle APEX forms, interactive reports, and editable grids for creating, viewing, updating, and deleting records",
+        "Created a dashboard with category-sales and order-status charts",
+        "Used SQL joins, subqueries, ROLLUP, and reporting views to summarize business information",
+        "Applied a consistent beauty-themed interface with clear navigation"
+                ],
+
+                images: [
+                    { src: "images/g1.png", label: "HomePage", desc: "Beauty-themed home page with navigation links to the main retail management features." },
+                    { src: "images/g2.png", label: "Dashboard", desc: "Category-sales bar chart and order-status donut chart summarizing retail activity." },
+                    { src: "images/g3.png", label: "Customer Management", desc: "Interactive customer report and form for adding, viewing, updating, and deleting customer details." },
+                    { src: "images/g4.png", label: "Order Management", desc: "Order grid showing customer and delivery information, with options to update order status and delivery service." },
+                    { src: "images/g9.png", label: "Delivery Services", desc: "Delivery service information and maintenance page with a general Thailand reference map." },
+                    { src: "images/g11.png", label: "Stock Transactions", desc: "Stock movement report and entry form for recording incoming and outgoing products with the responsible stock manager."},
+                    { src: "images/g12.png", label: "Payments", desc: "Payment report and form for recording payments against existing orders."},
+                ]
+            },
+            linguage: {
+                title: "Linguage Online Language Learning System",
+                description: "A project for System Analysis, Design, and Implementation. Linguage proposes an organized language learning experience through system requirements, use case and ER diagrams, and Figma interface designs for learners and administrators.",
+                progress: [
+                "Created a use case diagram showing learner and administrator actions",
+                "Designed an ER diagram connecting users, languages, courses, lessons, progress, subscriptions, and administrators",
+                "Designed learner interfaces for language and level selection, lessons, practice, and progress tracking",
+                "Created interface variations for beginners, returning learners, and premium users",
+                "Designed popup navigation and profile panels for quick access to account options",
+                "Designed administrator interfaces for managing lessons, users, subscriptions, and cancellation requests"
+                ],
+
+                images: [
+                    { src: "images/l2.png", label: "Learner interfaces", desc: "Language and level selection, lessons, practice, progress tracking, profiles, and subscriptions." },
+                    { src: "images/l3.png", label: "Admin Interfaces", desc: "Dashboard, course content, user accounts, and subscription management." },
+                    
+                ]
+            },
+
             course: {
                 title: "Course Management System",
                 description: "A Java console application built for a BSc IT program to help students and instructors access course schedules easily.",
