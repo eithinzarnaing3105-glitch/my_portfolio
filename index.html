@@ -89,7 +89,7 @@
     <!-- Floating Leadership Pill (Bottom-Right) -->
     <div class="role-badge badge-bottom">
         <i class="fa-solid fa-crown"></i>
-        <span>Vice President @ TechBridge</span>
+        <span>Are you interested?</span>
     </div>
 </div> 
     </div>
@@ -217,7 +217,7 @@
 
         <div class="projects-grid" id="projects-grid">
 
-            <!-- Project 1: Always visible -->
+            <!-- Project 1 -->
             <div class="project-card">
                 <div class="project-img-wrapper">
                     <img src="images/cinegrid.jpg"
@@ -254,7 +254,7 @@
                 </div>
             </div>
 
-            <!-- Project 2: Always visible -->
+            <!-- Project 2 -->
             <div class="project-card">
                 <div class="project-img-wrapper">
                     <img src="images/t1.jpg"
@@ -291,7 +291,7 @@
                 </div>
             </div>
 
-            <!-- Project 3: Always visible -->
+            <!-- Project 3 -->
             <div class="project-card">
                 <div class="project-img-wrapper">
                     <img src="images/s1.png"
@@ -333,7 +333,7 @@
                 </div>
             </div>
 
-            <!-- Project 4: Always visible -->
+            <!-- Project 4 -->
             <div class="project-card">
                 <div class="project-img-wrapper">
                     <img src="images/g1.png"
@@ -369,7 +369,7 @@
                 </div>
             </div>
 
-            <!-- Project 5: Always visible -->
+            <!-- Project 5 -->
             <div class="project-card">
                 <div class="project-img-wrapper linguage-cover">
                     <img src="images/l1.png"
@@ -410,7 +410,49 @@
                 </div>
             </div>
 
-            <!-- Project 6: Hidden until expanded -->
+            <!-- Project 6 -->
+            <div class="project-card">
+                <div class="project-img-wrapper linguage-cover">
+                    <img src="images/m1.png"
+                         alt="Global Market Web Analysis"
+                         loading="lazy">
+                </div>
+
+                <div class="project-content">
+                    <h3>Global Market Web Analysis</h3>
+                    <p class="problem">
+                        <strong>Goal:</strong> Analyze how 44 global assets
+                        (stocks, commodities, currencies, crypto, and bonds)
+                        move together from 2000 to 2026, and test whether
+                        those relationships tighten during market crises,
+                        using rolling correlations and an interactive
+                        Power BI dashboard.
+                    </p>
+
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Power BI</span>
+                        <span class="tag">DAX</span>
+                        <span class="tag">Yahoo Finance</span>
+                        <span class="tag">FRED API</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="https://github.com/eithinzarnaing3105-glitch/global_market_web_analysis"
+                           target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <i class="fa-brands fa-github"></i> View Repo
+                        </a>
+                        <a href="javascript:void(0);"
+                           class="btn-link btn-details" data-project="market">
+                            <i class="fa-solid fa-images"></i> More Details
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 7: Hidden until expanded -->
             <div class="project-card extra-project" hidden>
                 <div class="project-img-wrapper">
                     <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&amp;auto=format&amp;fit=crop"
@@ -446,7 +488,7 @@
                 </div>
             </div>
 
-            <!-- Project 7: Hidden until expanded -->
+            <!-- Project 8: Hidden until expanded -->
             <div class="project-card extra-project" hidden>
                 <div class="project-img-wrapper">
                     <img src="images/i3.jpg"
@@ -793,6 +835,27 @@
                     { src: "images/s3.png", label: "Supporting Evidence", desc: "Association rules with confidence and lift values that support the recommendations." },
                 ]
             },
+            market: {
+                title: "Global Market Web Analysis",
+                description: "A data analysis project that studies how 44 global assets move together and how that changes in a crisis. It combines Yahoo Finance and FRED data, Python data cleaning, rolling correlation analysis, and a 6-page interactive Power BI dashboard to test popular beliefs, such as whether gold is a safe haven.",
+                progress: [
+                    "Collected daily prices for 44 assets (2000 to 2026) from Yahoo Finance, plus 8 macro indicators from FRED",
+                "Cleaned the data and converted prices to returns, including oil's negative price in April 2020",
+                "Calculated rolling correlations for every asset pair using 60, 120, and 250-day windows",
+                "Found that average correlation rose from 0.064 in calm markets to 0.245 in the COVID crash",
+                "Built a safe-haven scorecard: Treasuries rose on about 66% of the worst stock days, gold on about half",
+                "Designed a 6-page Power BI dashboard with DAX measures, slicers, a heatmap, and a pair explorer"
+                ],
+
+                 images: [
+                    { src: "images/m2.png", label: "Summary", desc: "Market connectedness over time, with the current regime and key findings." },
+                    { src: "images/m3.png", label: "Market Overview", desc: "Asset growth rebased to 100, with category, asset, and date filters." },
+                    { src: "images/m4.png", label: "Correlation Heatmap", desc: "A color-coded grid showing which assets move together or opposite for any month." },
+                    { src: "images/m5.png", label: "Pair Explorer", desc: "How the correlation between any two assets changes over time, with selectable windows." },
+                    { src: "images/m6.png", label: "Crisis Comparison", desc: "Average correlation in each crisis compared with a calm baseline year." },
+                    { src: "images/m7.png", label: "Safe-Haven Scorecard", desc: "What held up on the worst stock market days, by hit rate and average return." }
+                ]
+            },
             glamore: {
                 title: "Glamoré Cosmetics Retail System",
                 description: "A cosmetics retail database application developed as a final project using Oracle APEX and Oracle SQL. The system connects ten related tables to manage retail operations.",
@@ -967,4 +1030,4 @@
     <!-- JS Link -->
     <script src="script.js"></script>
 </body>
-</html>
+</html>     
