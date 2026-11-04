@@ -231,6 +231,62 @@
         },
       ],
     },
+    bizscope: {
+  title: 'BizScope Data Exploration App',
+  description:
+    'BizScope is a application for exploring and analyzing tabular data from business, education, research, and other sources. It uses Pandas for data processing and visualization, with an optional AI assistant for explaining results in plain language.',
+  progress: [
+    'Built a multi-file CSV and Excel upload system with support for multiple worksheets',
+    'Added data inspection with previews, data types, missing values, duplicates, and summary statistics',
+    'Developed data cleaning tools for handling missing values, duplicates, text formatting, and column modifications',
+    'Created automatic chart suggestions and a custom chart builder using Pandas',
+    'Added table joining to combine related datasets using shared columns',
+    'Integrated an optional AI assistant for answering questions through supported data calculations',
+    'Implemented CSV downloads and Markdown analysis reports, and deployed the app using Streamlit',
+  ],
+  images: [
+    {
+      src: 'images/b1.png',
+      label: '1. Start screen',
+      desc: 'The homepage introduces BizScope and its three-step workflow: upload, prepare, and explore data. Users can upload CSV or Excel files or try the sample dataset.',
+    },
+    {
+      src: 'images/b2.png',
+      label: '2. Overview',
+      desc: 'Displays key dataset summaries, including total records, columns, missing values, and duplicate rows, with tabs for the main analysis tools.',
+    },
+    {
+      src: 'images/b3.png',
+      label: '3. Data profile',
+      desc: 'Shows column data types, missing and unique values, and descriptive statistics to help users understand their dataset.',
+    },
+    {
+      src: 'images/b4.png',
+      label: '4. Prepare data',
+      desc: 'Provides tools to clean data, handle missing values and duplicates, convert data types, and rename or remove columns.',
+    },
+    {
+      src: 'images/b5.png',
+      label: '5. Connect tables',
+      desc: 'Allows users to combine related datasets using shared columns, with match counts and warnings for repeated keys.',
+    },
+    {
+      src: 'images/b6.png',
+      label: '6. Suggested charts',
+      desc: 'Recommends suitable visualizations based on dataset fields, with explanations of how the displayed values are calculated.',
+    },
+    {
+      src: 'images/b7.png',
+      label: '7. Build a chart',
+      desc: 'Lets users create custom bar, pie, line, area, histogram, and scatter charts by selecting fields and calculations.',
+    },
+    {
+      src: 'images/b8.png',
+      label: '8. Ask BizScope',
+      desc: 'Allows users to ask questions in plain language and receive answers based on supported calculations performed on their data.',
+    },
+  ],
+},
     linguage: {
       title: 'Linguage Online Language Learning System',
       description:
@@ -361,6 +417,27 @@
       r: GH + 'glamore-cosmetics-retail-application',
     },
     {
+      k: 'bizscope',
+      n: 'BizScope Data Exploration App',
+      l: 'Data \u00b7 To Descisions',
+      d: 'Interactive app for exploring tabular data: prepare and join tables, build charts, and ask questions in plain language with an optional AI assistant.',
+      t: ['Python', 'Pandas', 'Streamlit', 'AI API', 'Data Visualization'],
+      g: ['#d4a5ff', '#f9c7a4'],
+      im: 'images/b0.png',
+      r: GH + 'biz_scope',
+      x: ['Website', 'https://bizscope114.streamlit.app/'],
+    },
+    {
+      k: 'market',
+      n: 'Global Market Web Analysis',
+      l: 'Data analysis',
+      d: 'How do 44 global assets move together, and does that change in a crisis? 26 years of data, rolling correlations and a 6-page Power BI dashboard.',
+      t: ['Python', 'Pandas', 'Power BI', 'DAX', 'Yahoo Finance', 'FRED API'],
+      g: ['#f27a96', '#d4a5ff'],
+      im: 'images/m1.png',
+      r: GH + 'global_market_web_analysis',
+    },
+     {
       k: 'linguage',
       n: 'Linguage Language Learning System',
       l: 'UI/UX \u00b7 System analysis',
@@ -374,16 +451,7 @@
         'https://www.figma.com/design/dRLC0BOCLYjy1IvLS35wuo/Linguage?t=Xg8b6ZlLAZkYhSf4-1',
       ],
     },
-    {
-      k: 'market',
-      n: 'Global Market Web Analysis',
-      l: 'Data analysis',
-      d: 'How do 44 global assets move together, and does that change in a crisis? 26 years of data, rolling correlations and a 6-page Power BI dashboard.',
-      t: ['Python', 'Pandas', 'Power BI', 'DAX', 'Yahoo Finance', 'FRED API'],
-      g: ['#f27a96', '#d4a5ff'],
-      im: 'images/m1.png',
-      r: GH + 'global_market_web_analysis',
-    },
+  
     
     {
       k: 'IoT',
